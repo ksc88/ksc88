@@ -1,5 +1,0 @@
-SET  @num := 0;
-
-UPDATE tblleavetype SET id = @num := (@num+1);
-
-ALTER TABLE tblleavetype AUTO_INCREMENT =1;
